@@ -6,7 +6,7 @@ const PORT = 3000;
 app.get('/', (req, res) => {
   res.send(`
     <h1>Hello World desde Node y Express</h1>
-    <p>Aplicacion actualizada automaticamente desde la rama deploy.</p>
+    <p>Aplicacion detectada automaticamente  por systemd desde Github.</p>
   `);
 });
 
